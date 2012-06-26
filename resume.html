@@ -1,0 +1,24 @@
+<ul class="contact">
+	<li>Emily Gillcoat</li>
+	<li>Wake Forest, NC</li>
+	<li>919-342-4638</li>
+	<li><a href="mailto:ejg@ejgejg.com">ejg@ejgejg.com</a>
+</ul>
+
+<h2>Professional Experience</h2>
+
+<?php
+	$jobs = jobA();
+		foreach ($jobs as $job) {
+			foreach ($job as $key=>$value) {
+				echo (value=='') ? '' : "<p class=\"$key\">$value</p>\n";
+			}
+		}
+?>
+<div class="edu">
+	<h2>Education</h2>
+	<ul>
+		<li>Michigan State University 1989</li>
+		<li>Bachelor of Science in Computational Mathematics</li>
+	</ul>
+</div>

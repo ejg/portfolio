@@ -1,0 +1,25 @@
+<h2>video</h2>
+<?php
+phpinfo();
+
+/*
+$doc = "/home/users/web/b1687/sl.ejgejgco/public_html";
+$xfile = "http://gdata.youtube.com/feeds/api/videos/-/shmuley";
+$xml = simplexml_load_file($xfile);
+foreach ($xml->entry as $entry)
+{
+
+	//All the media namespaced items under a YouTube video entry
+	$media = $entry->children('http://search.yahoo.com/mrss/');
+	echo '<div class="clear">';
+		$attrs = $media->group->thumbnail[0]->attributes();
+		$thumbnail = $attrs['url'];
+		echo '<div class="thumb">';
+			echo "<a href=\"". $media->group->player->attributes(). "\"><img src=\"$thumbnail\" alt=\"oops\"></a>";
+		echo '</div>';
+		echo '<h4>' . $media->group->title . '</h4>';
+		echo '<p>' . $media->group->description . '</p>';
+	echo '</div>';
+}
+*/
+?>
