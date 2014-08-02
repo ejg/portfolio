@@ -21,15 +21,21 @@ function newPort() {
 			'skills'=>'psd to html, css, jquery, php template'),
 */
 		array(
+			'company'=>'Inn on Main',
+			'url'=>'http://www.innonmainofspartanburg.com',
+			'image'=>'innonmain.png',
+			'skills'=>'html5, css3, jquery, perch cms'),
+		array(
 			'company'=>'United Therapeutics',
 			'url'=>'http://www.unither.com',
 			'image'=>'ut.jpg',
 			'skills'=>'html, css, jquery, modx cms with custom job board'),
-		array(
+/*		array(
 			'company'=>'MindWorks Multimedia',
 			'url'=>'http://www.mwmm.com',
 			'image'=>'mwmm.jpg',
 			'skills'=>'html5 video, psd to html, css, jquery, custom wordpress blog'),
+*/			
 		array(
 			'company'=>'Urban Ministries of Durham',
 			'url'=>'http://www.umdurham.org',
@@ -78,29 +84,26 @@ function oldPort() {
 			'url'=>'http://wakeforestartandframe.com/',
 			'image'=>'wfframe.jpg',
 			'skills'=>'html, css'),
-*/
 		array(
 			'company'=>'Be the New You',
 			'url'=>'http://www.bethenewyou.com/',
 			'image'=>'creative.jpg',
 			'skills'=>'html, css, jquery'),
-/*		array(
+		array(
 			'company'=>'Beverly Hills Rent-A-Car',
 			'url'=>'http://www.bhrentacar.com/',
 			'image'=>'beverlyhillsrentacar.jpg',
 			'skills'=>'html, css'),
-*/
 		array(
 			'company'=>'Rabbi Shmuley',
 			'url'=>'http://www.shmuley.com/',
 			'image'=>'shmuley.jpg',
 			'skills'=>'html, css, jquery, ExpressionEngine, xml'),
-/*		array(
+		array(
 			'company'=>'Havadit',
 			'url'=>'http://havadit.mach9development.com/',
 			'image'=>'ha.jpg',
 			'skills'=>'html, css, cakePHP'),
-*/
 		array(
 			'company'=>'BNI - Wake Forest',
 			'url'=>'http://www.rolesvillebni.com/',
@@ -111,7 +114,7 @@ function oldPort() {
 			'url'=>'http://www.discovertexashomes.com/',
 			'image'=>'dth.jpg',
 			'skills'=>'html, css, javascript'),
-/*		array(
+		array(
 			'company'=>'Innovative Martial Arts',
 			'url'=>'http://www.martialartsforlife.net/',
 			'image'=>'imaa.jpg',
@@ -127,12 +130,12 @@ function oldPort() {
 			'url'=>'http://www.rolesvillechamber.org',
 			'image'=>'rolesvillechamber.jpg',
 			'skills'=>'html, css, cakePHP'),
+/*
 		array(
 			'company'=>'Jay Lillie',
 			'url'=>'http://www.jaylillie.com/',
 			'image'=>'jaylillie.jpg',
 			'skills'=>'html, css, wordpress'),
-/*
 		array(
 			'company'=>'CollegeBunker',
 			'url'=>'http://www.collegebunker.com/',

@@ -25,41 +25,22 @@ if ($pageName == 'resume')
 <![endif]-->
 <!--end javascript-->
 <!--Stylesheets-->
-<link href="./css/ejg.css" rel="stylesheet" >
-<link media="print" href="./css/print.css" rel="stylesheet" >
-<!--[if lte ie 7]>
-<style>
-.flower {display:none; }
-.pageWrapper {margin-left:300px;}
-</style>
-<![endif]-->
+<link href="./css/ejg.css?v=1" rel="stylesheet" >
+<link media="print" href="./css/print.css?v=1" rel="stylesheet" >
 <!--End Stylesheets-->
-<script type="text/javascript">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-6741087-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  ga('create', 'UA-6741087-1', 'ejgejg.com');
+  ga('send', 'pageview');
 
 </script>
 </head>
 <body id="<?=$pageName?>">
 <div class="bodyWrapper">
-	<div class="flower">
-		<div class="f1"></div>
-		<div class="f2"></div>
-		<div class="f3"></div>
-		<div class="f4"></div>
-		<div class="f1 or op"></div>
-		<div class="f2 or op"></div>
-		<div class="f3 op"></div>
-		<div class="f4 op"></div>
-	</div>
 
 	<div class="pageWrapper">
 		<header>

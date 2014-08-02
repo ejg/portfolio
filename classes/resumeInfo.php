@@ -7,15 +7,15 @@ function jobA() {
 				'company'=>'Myself',
 				'date'=>'December 2008 - Present',
 				'product'=>'See <a href="portfolio.html">my  portfolio</a>',
-				'tools'=>'HTML5, CSS3, HTML 4.01, CSS, jQuery, PHP, Kohana, mySQL, Geolocation, HTML5 Video',
+				'tools'=>'HTML5, CSS3, HTML 4.01, CSS, jQuery, PHP, Kohana, mySQL, Geolocation, HTML5 Video, Perch CMS',
 				'job'=>'My freelance projects have included: turning PSDs into HTML/CSS, full-fledged web applications written in Kohana PHP, Wordpress sites, Google Map applications, ModX CMS sites, one very old Classic ASP (!) ecommerce site and various straight up websites.</p><p>I enjoy learning new technologies and love working on all sorts of projects large and small. I have a good understanding of SEO strategies and try to keep up with Google\'s latest indexing trends.'),
 		array(
 				'title'=>'Senior Web Developer',
 				'company'=>'Mindworks Multimedia',
-				'date'=>'November 2009 - Present',
+				'date'=>'November 2009 - January 2012',
 				'product'=>'',
 				'tools'=>'HTML 4.01, CSS, jQuery, kohana, modx, silverstripe, mySQL',
-				'job'=>'I am in charge of all things web related at Mindworks Multimedia from creating and maintaining websites, web interfaces for multimedia projects, and domain, web, and email administration.'),
+				'job'=>'I was in charge of all things web related at Mindworks Multimedia from creating and maintaining websites, web interfaces for multimedia projects, and domain, web, and email administration.'),
 		array(
 				'title'=>'Web Developer',
 				'company'=>'BCBSNC - Web Office',
@@ -27,16 +27,17 @@ function jobA() {
 				'title'=>'Senior Web Developer',
 				'company'=>'Mach 9 Consulting',
 				'date'=>'July 2007 - December 2008',
-				'product'=>'See <a href="portfolio.html">my  portfolio</a>',
+				'product'=>'',
 				'tools'=>'HTML 4.01, XHTML 1.0,  CSS, PHP, Javascript, CakePHP, mySQL, ExpressionEngine, WordPress, SVN, Basecamp, OOP, MVC',
 				'job'=>'As Senior Web Developer, I specialized in HTML/CSS portions of the websites we developed. I am a big proponent of the separation of data (html), presentation (css) and behavior (javascript). I understand the cross-browser compatibility issues and all the trouble IE6 can cause. I created an html/css framework that reduces cross-browser problems and enables me to quickly create websites. I am knowledgeable in PHP and often use it to generate repetitive HTML code.'),
-		array(
+/*		array(
 				'title'=>'SAHM/Volunteer',
 				'company'=>'Gillcoat household/Franklin Academy/Tri-Area Ministry',
 				'date'=>'March 2000 - June 2007',
 				'product'=>'',
 				'tools'=>'',
 				'job'=>'During this time period, I kept my technical skills up to date by learning html/css/php, taking classes at Wake Tech, and creating websites for friends, family and my kids&#039; school. I also participated in many volunteering activites including "Head Library Volunteer" at Franklin Academy and helping fold clothing donations at the Tri-Area Ministry (a local food and clothing bank).'),
+*/
 		array(
 				'title'=>'Software Engineer',
 				'company'=>'IBM',
