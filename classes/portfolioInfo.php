@@ -40,12 +40,13 @@ function newPort() {
 			'company'=>'Urban Ministries of Durham',
 			'url'=>'http://www.umdurham.org',
 			'image'=>'umd.jpg',
-			'skills'=>'psd to html, css, jquery, modx cms'),
-		array(
+			'skills'=>'psd to html, css, jquery, modx cms'));
+/*		array(
 			'company'=>'Clean Energy of Durham',
 			'url'=>'http://cleanenergydurham.org/energyuse',
 			'image'=>'ced.jpg',
 			'skills'=>'Share and Compare Energy Tracker application, psd to html, css, jquery, kohana 2.3'));
+*/			
 }
 function oldPort() {
 	return array(
