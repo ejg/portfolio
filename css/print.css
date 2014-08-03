@@ -8,6 +8,7 @@ h2 {font-size:1.4em;font-family:arial, sans-serif;margin-top:30px;}
 #resume .contentWrapper, .pageWrapper {margin:0;}
 #resume .contentWrapper {background:transparent;box-shadow:none;}
 ul.contact {float:none;text-align:left;padding:10px 0 20px 0;}
-.res_name {font-size:1.3em;font-weight:bold;}
+.res_name {font-size:1.3em;font-weight:bold;margin-bottom:10px;}
 .res_addr {display:block;}
+.product {display:none;}
 
