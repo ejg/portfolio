@@ -12,18 +12,18 @@ body {color: #444;font: 75%/1.40 verdana, geneva, arial, sans-serif;background: 
 #portfolio {background-image: url(../img/orange_flower.jpg);}
 h1, h2, h4 {font: normal 1em/1.5 tangerine, georgia, 'palatino linotype', 'book antiqua', serif;}
 header {padding-left:150px;}
-header h1 {font-size: 6.0em;height:54px;text-align:center;padding: 0 5px;float:left;margin: 150px 0 0 -50px;position:relative;z-index:10;}
+header h1 {font-size: 6.0em;line-height:1;height:54px;text-align:center;padding: 0 5px;float:right;margin: 20px 0 0;position:relative;z-index:10;}
 header h1 a {color: #444;}
 nav {overflow:hidden;clear:right;}
-header h2 {float:right;margin-top: 178px;width: 168px;}
-h2 {font-size: 3.5em;}	
+header h2 {float:right;clear:right;margin-top:40px;width: 168px;}
+h2 {font-size: 3.5em;line-height:1;}	
 h3 {font-size:0.9em;margin: 7px 0;font-weight:normal;}
 h4 {font-weight:bold;font-size:2.5em;}
 section {width:100%;clear:left;position:relative;z-index:10;}
-section h1 {font-weight:bold;font-size:2.5em;}
+section h1 {font-weight:bold;font-size:2.5em;line-height:.8;margin-bottom:5px;}
 figure {margin-right:20px;}
 figure img {border:1px solid #666;}
-aside {background: rgba(255, 255, 255, 0.6);padding:10px;}
+aside {background: rgba(255, 255, 255, 0.6);padding:0 10px 10px;}
 img {border: 0;}
 p {margin: 10px 0;}
 a {text-decoration: none;}
@@ -57,7 +57,8 @@ dd { margin: 0 0 0 90px; padding: 0 0 0.5em 0; height: 1em;}
 .header {overflow: hidden;}
 * html .header {height: 100%;}
 .contentWrapper {margin-top:50px;}
-#resume .contentWrapper, #index .contentWrapper {;margin-left:10%;padding:10px 10px 30px;position:relative;z-index:10;background:rgba(255, 255, 255, 0.6);
+#resume .contentWrapper, #index .contentWrapper {;margin-left:10%;padding:10px 10px 30px;position:relative;z-index:10;
+background:rgba(255, 255, 255, 0.6);
 -webkit-box-shadow: -10px -10px 30px 10px rgba(256, 256, 256, .6);
 box-shadow: -10px -10px 30px 10px rgba(256, 256, 256, .6);}
 .site {position: relative;float:left;height: 240px;width: 184px;margin-right: 20px;}
@@ -80,7 +81,6 @@ nav ul li a:hover{color: #262626;}
 /*--------------------------*/
 /* other                    */
 /*--------------------------*/
-.who {height:222px;}
 * html .who h1 {width: 230px;}
 * html .who h2 {width: 180px;}
 .ss {font-size: 0.7em;vertical-align:top;}
@@ -114,14 +114,15 @@ ul.contact {list-style:none;float:right;text-align:right;}
 
 
 .project {margin-bottom:30px;}
-.xxproject a {color: #262626;text-decoration:none;}
+.project h3 {margin-top:0;}
 .project figure {float:left;}
 .detailed {overflow:hidden;}
 .detailed h3, .cssmysite h3, .ss h3 {font-size:1.4em;}
 .project.quick {float:left;overflow:visible;}
 .project aside p {margin-top:0;}
+
 xxsection {clear:both;}
-aside {float:left;width:305px;}
+aside {float:left;width:40%;}
 figure {position:relative;}
 figcaption{position:absolute;background-color:#fff;border:1px solid #666;top:10px;left:5px;display:none;min-width:170px;-moz-box-shadow: 5px 5px 5px #666;-webkit-box-shadow: 5px 5px 5px #666;box-shadow: 5px 5px 5px #666;-xxmoz-border-radius:5px;xxborder-radius: 5px;}
 figcaption {padding:10px;}
@@ -135,8 +136,44 @@ figcaption a:hover {text-decoration:none;}
 
 .cssmysite figure, .ss figure {margin-right:0;}
 
-.portfolio {margin-left:110px;}
 .op {display:none;}
 #resume .or {display:block;}
 #portfolio .op {display:block;}
-.res_addr {display:none;}
+.res_addr, .res_portfolio {display:none;}
+
+
+@media only screen and (max-width: 900px) {
+	.detailed img {vertical-align:bottom;}
+	aside {background: rgba(255, 255, 255, 0.8);width:90%;padding-top:10px;}
+}	
+@media only screen and (max-width: 630px) {
+	nav ul {margin-top:20px;padding-top:0;}
+	nav ul li {float:none;text-align:right;border-bottom:1px solid #d9dcd5;}
+	nav ul li a {display:block;padding: 10px 20px 10px 0;}
+	nav ul li:last-child a {padding-right:20px;}
+	.contentWrapper {margin:20px 0 0;}
+	#resume .contentWrapper, #index .contentWrapper {
+		margin-left:0;
+		background:rgba(255, 255, 255, 0.8);
+		-webkit-box-shadow: -10px -10px 30px 10px rgba(256, 256, 256, .8);
+		box-shadow: -10px -10px 30px 10px rgba(256, 256, 256, .8);
+	}
+	.detailed img {width:100%;max-width:452px;height:auto;}
+
+}
+@media only screen and (max-width: 500px) {
+	header {padding-left:0;}
+	body {background-size:200px 210px;}	
+	xxbody::after {
+  content: "";
+	background: transparent url(../img/pink_flower.jpg) no-repeat fixed 0 10px;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+}	

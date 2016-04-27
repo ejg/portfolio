@@ -8,7 +8,7 @@ function jobA() {
 				'date'=>'December 2008 - Present',
 				'product'=>'See <a href="portfolio.html">my  portfolio</a>',
 				'tools'=>'HTML5, CSS3, JavaScript, jQuery, PHP, WordPress, Kohana, mySQL, Geolocation, HTML5 Video, Perch CMS',
-				'job'=>'My freelance projects have included: turning PhotoShop Documents into HTML/CSS, full-fledged web applications written in Kohana PHP, Wordpress sites, Google Map applications, ModX CMS sites, one very old Classic ASP (!) ecommerce site, and various straight-up websites.</p><p>I enjoy learning new technologies and love working on all sorts of projects large and small. I have a good understanding of SEO strategies and try to keep up with Google\'s latest indexing trends.'),
+				'job'=>'My freelance projects have included: converting old static websites into responsive sites, turning PhotoShop Documents into HTML/CSS, full-fledged web applications written in Kohana PHP, Wordpress sites, Google Map applications, Perch and ModX CMS sites, one very old Classic ASP (!) ecommerce site, and various straight-up websites.</p><p>I enjoy learning new technologies and love working on all sorts of projects large and small. I have a good understanding of SEO strategies and try to keep up with Google\'s latest indexing trends.'),
 		array(
 				'title'=>'Senior Web Developer',
 				'company'=>'Mindworks Multimedia',

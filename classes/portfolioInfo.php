@@ -25,12 +25,12 @@ function newPort() {
 			'url'=>'http://www.innonmainofspartanburg.com',
 			'image'=>'innonmain.png',
 			'skills'=>'html5, css3, jquery, perch cms'),
-		array(
+/*			array(
 			'company'=>'United Therapeutics',
 			'url'=>'http://www.unither.com',
 			'image'=>'ut.jpg',
 			'skills'=>'html, css, jquery, modx cms with custom job board'),
-/*		array(
+	array(
 			'company'=>'MindWorks Multimedia',
 			'url'=>'http://www.mwmm.com',
 			'image'=>'mwmm.jpg',
@@ -39,7 +39,7 @@ function newPort() {
 		array(
 			'company'=>'Urban Ministries of Durham',
 			'url'=>'http://www.umdurham.org',
-			'image'=>'umd.jpg',
+			'image'=>'umd-2015.jpg',
 			'skills'=>'psd to html, css, jquery, modx cms'));
 /*		array(
 			'company'=>'Clean Energy of Durham',
