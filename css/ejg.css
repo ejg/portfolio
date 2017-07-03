@@ -2,12 +2,12 @@
 /*   Global Elements  	    */
 /*--------------------------*/
 * {margin: 0;padding: 0;
-	-webkit-box-sizing: border-box; 	
-	-moz-box-sizing: border-box;    
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;}
 article, aside, details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
 html {height: 100%;}
-body {color: #444;font: 75%/1.40 verdana, geneva, arial, sans-serif;background: transparent url(../img/pink_flower.jpg) no-repeat fixed 0 10px;}
+body {color: #444;font: 85%/1.40 verdana, geneva, arial, sans-serif;background: transparent url(../img/pink_flower.jpg) no-repeat fixed 0 10px;}
 #resume {background-image: url(../img/purple_flower.jpg);}
 #portfolio {background-image: url(../img/orange_flower.jpg);}
 h1, h2, h4 {font: normal 1em/1.5 tangerine, georgia, 'palatino linotype', 'book antiqua', serif;}
@@ -16,14 +16,15 @@ header h1 {font-size: 6.0em;line-height:1;height:54px;text-align:center;padding:
 header h1 a {color: #444;}
 nav {overflow:hidden;clear:right;}
 header h2 {float:right;clear:right;margin-top:40px;width: 168px;}
-h2 {font-size: 3.5em;line-height:1;}	
+h2 {font-size: 2.5rem;line-height:1;}
 h3 {font-size:0.9em;margin: 7px 0;font-weight:normal;}
 h4 {font-weight:bold;font-size:2.5em;}
 section {width:100%;clear:left;position:relative;z-index:10;}
-section h1 {font-weight:bold;font-size:2.5em;line-height:.8;margin-bottom:5px;}
+section h1 {font-weight:bold;font-size:2.5em;line-height:.8;margin:30px 0 10px;}
 figure {margin-right:20px;}
 figure img {border:1px solid #666;}
 aside {background: rgba(255, 255, 255, 0.6);padding:0 10px 10px;}
+aside ul {margin-bottom:20px;}
 img {border: 0;}
 p {margin: 10px 0;}
 a {text-decoration: none;}
@@ -31,7 +32,7 @@ a {color: #262626;text-decoration:none;}
 p a {text-decoration: underline;}
 a:hover {color:#8e0136;}
 a:hover img {border-color:#aaa;}
-ul, ol {padding: 0 0 20px 40px;}
+ul, ol {padding: 0 0 0 40px;}
 input {margin: 2px 0 5px 0;padding: 3px 0;}
 dl {margin: 0;padding-top: 10px;}
 dt {font-weight: bold;float: left; clear: left; width: 8em; xtext-align: right;}
@@ -56,7 +57,7 @@ dd { margin: 0 0 0 90px; padding: 0 0 0.5em 0; height: 1em;}
 .pageWrapper {margin-left:10%;}
 .header {overflow: hidden;}
 * html .header {height: 100%;}
-.contentWrapper {margin-top:50px;}
+.contentWrapper {margin-top:20px;}
 #resume .contentWrapper, #index .contentWrapper {;margin-left:10%;padding:10px 10px 30px;position:relative;z-index:10;
 background:rgba(255, 255, 255, 0.6);
 -webkit-box-shadow: -10px -10px 30px 10px rgba(256, 256, 256, .6);
@@ -77,7 +78,7 @@ nav ul li {float: left;}
 nav ul li a{display: block;font-weight: bold;color: #97a195;padding: 0 40px 0 0;}
 nav ul li:last-child a {padding-right:0;}
 nav ul li a:hover{color: #262626;}
-#index #indexLink a, #resume #resumeLink a, #portfolio #portfolioLink a {color: #262626;}	
+#index #indexLink a, #resume #resumeLink a, #portfolio #portfolioLink a {color: #262626;}
 /*--------------------------*/
 /* other                    */
 /*--------------------------*/
@@ -90,7 +91,7 @@ nav ul li a:hover{color: #262626;}
 .cover ol, .cover ul {padding-top: 0;}
 .company {font-weight:bold;margin: 0;}
 .date {margin: 0 0 5px 0;}
-.title {xxfont-weight: bold;font-size:1.4em;margin: 15px 0 0 0;}
+.title {font-size:1.3em;margin: 15px 0 0 0;}
 .product {margin: 0;}
 tools, .job 	{margin: 5px 0 0 0;}
 .edu h2 {margin-top: 20px;color: #222;}
@@ -111,12 +112,13 @@ ul.contact {list-style:none;float:right;text-align:right;}
 .latest ul {padding-top:0;}
 .site a:hover img {border:1px solid #000;}
 .site a:hover {text-decoration:underline;}
+.portfolio h2 {font-size:3.5rem;}
 
 
 .project {margin-bottom:30px;}
 .project h3 {margin-top:0;}
 .project figure {float:left;}
-.detailed {overflow:hidden;}
+.detailed {overflow:hidden;font-size:.9em;}
 .detailed h3, .cssmysite h3, .ss h3 {font-size:1.4em;}
 .project.quick {float:left;overflow:visible;}
 .project aside p {margin-top:0;}
@@ -145,8 +147,10 @@ figcaption a:hover {text-decoration:none;}
 @media only screen and (max-width: 900px) {
 	.detailed img {vertical-align:bottom;}
 	aside {background: rgba(255, 255, 255, 0.8);width:90%;padding-top:10px;}
-}	
+}
 @media only screen and (max-width: 630px) {
+	header h1 {font-size:14vw;}
+	header h2 {margin-top:5vw;}
 	nav ul {margin-top:20px;padding-top:0;}
 	nav ul li {float:none;text-align:right;border-bottom:1px solid #d9dcd5;}
 	nav ul li a {display:block;padding: 10px 20px 10px 0;}
@@ -163,7 +167,7 @@ figcaption a:hover {text-decoration:none;}
 }
 @media only screen and (max-width: 500px) {
 	header {padding-left:0;}
-	body {background-size:200px 210px;}	
+	body {background-size:200px 210px;}
 	xxbody::after {
   content: "";
 	background: transparent url(../img/pink_flower.jpg) no-repeat fixed 0 10px;
@@ -173,7 +177,7 @@ figcaption a:hover {text-decoration:none;}
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
 }
 
-}	
+}

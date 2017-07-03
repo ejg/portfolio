@@ -58,16 +58,12 @@ if ($pageName == 'resume')
 			</nav>
 		</header>
 		<div class="contentWrapper">
-<?
-if (($pageName == 'portfolio') || ($pageName == 'test')) {
-	include('classes/portfolioInfo.php');
-	}
+<?php
+			if (file_exists($filename))
+						include($filename);
+					else
+						include('custom404.html');
 ?>
-				<?php  if (file_exists($filename))
-							include($filename);
-						else
-							include('custom404.html');
-				?>
 		</div><!-- contentWrapper -->
 	</div><!-- pageWrapper -->
 </div><!-- bodyWrapper -->
