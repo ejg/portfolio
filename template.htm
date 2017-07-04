@@ -59,10 +59,12 @@ if ($pageName == 'resume')
 		</header>
 		<div class="contentWrapper">
 <?php
-			if (file_exists($filename))
-						include($filename);
-					else
-						include('custom404.html');
+			if (file_exists($filename)) {
+				include($filename);
+			}
+			else {
+				include('custom404.html');
+			}
 ?>
 		</div><!-- contentWrapper -->
 	</div><!-- pageWrapper -->
