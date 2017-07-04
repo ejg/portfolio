@@ -1,8 +1,7 @@
 <?php
 $filename = isset($_REQUEST['file']) ? $_REQUEST['file'] : "";
 $pageName = str_replace('.html','',$filename);
-if ($pageName == 'resume')
-{
+if ($pageName == 'resume') {
 	include('classes/resumeInfo.php');
 }
 ?>
