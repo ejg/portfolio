@@ -7,8 +7,8 @@ function jobA() {
 				'company'=>'Myself',
 				'date'=>'December 2008 - Present',
 				'product'=>'See <a href="portfolio.html">my  portfolio</a>',
-				'tools'=>'HTML5, CSS3, JavaScript, jQuery, PHP, WordPress, Kohana, mySQL, Geolocation, HTML5 Video, Perch CMS',
-				'job'=>'My freelance projects have included: converting old static websites into responsive sites, turning PhotoShop Documents into HTML/CSS, full-fledged web applications written in Kohana PHP, Wordpress sites, Google Map applications, Perch and ModX CMS sites, one very old Classic ASP (!) ecommerce site, and various straight-up websites.</p><p>I enjoy learning new technologies and love working on all sorts of projects large and small. I have a good understanding of SEO strategies and try to keep up with Google\'s latest indexing trends.'),
+				'tools'=>'HTML5, CSS, JavaScript, jQuery, PHP, VueJS, WordPress, Kohana, mySQL, Geolocation, HTML5 Video, Perch CMS',
+				'job'=>'My current focus is eLearning Systems geared toward law schools. I have been full-stack programming from designing the database to the front-end development since 2010.</p><p>My other freelance projects have included: converting old static websites into responsive sites, turning PhotoShop Documents into HTML/CSS, full-fledged web applications written in Kohana PHP, Wordpress sites, Google Map applications, Perch and ModX CMS sites, one very old Classic ASP (!) ecommerce site, and various straight-up websites.</p><p>I enjoy learning new technologies and love working on all sorts of projects large and small. I have a good understanding of SEO strategies and try to keep up with Google\'s latest indexing trends.'),
 		array(
 				'title'=>'Senior Web Developer',
 				'company'=>'Mindworks Multimedia',
@@ -17,7 +17,7 @@ function jobA() {
 				'tools'=>'HTML 4.01, CSS, jQuery, kohana, modx, silverstripe, mySQL',
 				'job'=>'I was in charge of all things web related at Mindworks Multimedia from creating and maintaining websites, web interfaces for multimedia projects, and domain, web, and email administration.'),
 		array(
-				'title'=>'Web Developer',
+				'title'=>'Front-end Web Developer',
 				'company'=>'BCBSNC - Web Office',
 				'date'=>'February 2009 - April 2009<br>August 2009 - November 2009',
 				'product'=>'',
